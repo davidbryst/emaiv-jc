@@ -1,6 +1,6 @@
 import { Button, Container, Group, Image, Text, Title } from '@mantine/core';
 import image from '../../../public/gg.png';
-import classes from './hero.module.css';
+import classes from './about.module.css';
 
 export function About() {
   return (
@@ -11,7 +11,7 @@ export function About() {
               Qui somme <span className={classes.highlight}> nous </span> <br />
             </Title>
             <Text c="dimmed" mt="md">
-              le cabinet conseil immigration & it emaiv-jc est l'interlocuteur qui vous accompagne dans la concrétisation de vos projets.
+              le cabinet conseil immigration & it emaiv-jc est l&apos;interlocuteur qui vous accompagne dans la concrétisation de vos projets.
               vos aspirations sont une priorité pour nous.
               <br />
               ainsi, pour répondre à vos besoins, nous vous accompagnons en faisons preuve constante de professionnalisme jour après jour.
