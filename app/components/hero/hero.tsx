@@ -1,4 +1,4 @@
-import { Button, Container, Flex, Text, Title } from '@mantine/core';
+import { Button, Container, Group, Text, Title } from '@mantine/core';
 import classes from './hero.module.css';
 
 export function Hero() {
@@ -25,13 +25,13 @@ export function Hero() {
               than 100 customizable components and hooks to cover you in any situation */}
             </Text>
 
-            <Flex gap="md">
+            <Group mt={20} gap="md">
               <Button
                 variant="gradient"
                 gradient={{ from: 'pink', to: 'yellow' }}
                 size="xl"
                 className={classes.control}
-                mt={40}
+                mt={20}
               >
                 Prendre rende vous
               </Button>
@@ -40,11 +40,11 @@ export function Hero() {
                 gradient={{ to: 'pink', from: 'yellow' }}
                 size="xl"
                 className={classes.control}
-                mt={40}
+                mt={20}
               >                
                 Voir nos services
               </Button>
-            </Flex>
+            </Group>
           </div>
         </div>
       </Container>

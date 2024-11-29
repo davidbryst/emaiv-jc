@@ -5,7 +5,7 @@ import classes from './about.module.css';
 export function About() {
   return (
       <Container size="md">
-        <div className={classes.inner}>
+        <div style={{}} className={classes.inner}>
           <div className={classes.content}>
             <Title className={classes.title}>
               Qui somme <span className={classes.highlight}> nous </span> <br />
