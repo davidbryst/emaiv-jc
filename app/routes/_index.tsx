@@ -11,7 +11,7 @@ import { Realisation } from "~/components/realisation/realisation";
 export const meta: MetaFunction = () => {
   return [
     { title: "Emaiv jc" },
-    { name: "description", content: "Welcome to Remix!" },
+    { name: "Accueil", content: "Bienvenu chez Emaiv jc" },
   ];
 };
 
