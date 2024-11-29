@@ -1,31 +1,35 @@
 import { Card, Group, Image, SimpleGrid, Text, Container, Title } from '@mantine/core';
 import classes from './realisation.module.css';
+import realisation from '../../../public/realisation.jpg';
+import realisation2 from '../../../public/realisation2.jpg';
+import realisation3 from '../../../public/realisation3.jpg';
+import realisation4 from '../../../public/realisation4.jpg';
 
 const mockdata = [
     {
       title: 'Colonie Tour Europe',
-      image: '/public/realisation.jpg',
+      image: realisation,
       pepole: 30,
       date: '07 mai 2023',
       dateFin: '10 juillet 2023',
     },
     {
       title: 'Colonie Tour Europe',
-      image: '/public/realisation4.jpg',
+      image: realisation2,
       pepole: 30,
       date: '07 mai 2023',
       dateFin: '10 juillet 2023',
     },
     {
       title: 'Colonie Tour Europe',
-      image: '/public/realisation2.jpg',
+      image: realisation3,
       pepole: 30,
       date: '07 mai 2023',
       dateFin: '10 juillet 2023',
     },
     {
       title: 'Colonie Tour Europe',
-      image: '/public/realisation3.jpg',
+      image: realisation4,
       pepole: 30,
       date: '07 mai 2023',
       dateFin: '10 juillet 2023',

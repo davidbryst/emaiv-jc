@@ -7,7 +7,7 @@ export function Newsletter() {
       <div className={classes.body}>
         <Title className={classes.title}>Attendez une minute...</Title>
         <Text fw={500} c="orange" fz="lg" mb={5}>
-          S'abonner à notre lettre d'information !
+          S&apos;abonner à notre lettre d&apos;information !
         </Text>
         <Text fz="sm"  c="dimmed">
         pour recevoir les dernières nouvelles avant tout le monde.

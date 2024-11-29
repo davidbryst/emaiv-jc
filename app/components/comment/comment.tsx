@@ -1,21 +1,22 @@
 import { Avatar, Container, Group, Paper, SimpleGrid, Text, Title, TypographyStylesProvider } from '@mantine/core';
 import classes from './comment.module.css';
+import realisation from '../../../public/realisation.jpg';
 
 const mockdata = [
     {
-      image: '/public/realisation.jpg',
+      image: realisation,
       text: '— Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, optio dicta. Totam vitae voluptatum consequuntur fugit sit, facere illum tempora culpa nulla enim mollitia quo maiores delectus doloremque aliquam eum. —',
       name: 'David abraham',
       info: 'Visa visiteur Canada',
     },
     {
-      image: '/public/realisation.jpg',
+      image: realisation,
       text: '— Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, optio dicta. Totam vitae voluptatum consequuntur fugit sit, facere illum tempora culpa nulla enim mollitia quo maiores delectus doloremque aliquam eum. —',
       name: 'David abraham',
       info: 'Visa visiteur Canada',
     },
     {
-      image: '/public/realisation.jpg',
+      image: realisation,
       text: '— Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, optio dicta. Totam vitae voluptatum consequuntur fugit sit, facere illum tempora culpa nulla enim mollitia quo maiores delectus doloremque aliquam eum. —',
       name: 'David abraham',
       info: 'Visa visiteur Canada',

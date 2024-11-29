@@ -1,6 +1,7 @@
 import { IconBrandInstagram, IconBrandTwitter, IconBrandYoutube } from '@tabler/icons-react';
 import { ActionIcon, Container, Group, Image, Text } from '@mantine/core';
 import classes from './footer.module.css';
+import logoImg from '../../../public/logo.png';
 
 const data = [
   {
@@ -58,7 +59,7 @@ export function Footer() {
     <footer className={classes.footer}>
       <Container className={classes.inner}>
         <div className={classes.logo}>
-            <Image radius="sm" src="../../../public/logo.png"/>
+            <Image radius="sm" src={logoImg}/>
           {/* <Text size="xs" c="dimmed" className={classes.description}>
             Build fully functional accessible web applications faster than ever
           </Text> */}

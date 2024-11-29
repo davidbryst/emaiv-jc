@@ -3,6 +3,7 @@ import { Anchor, Box, Burger, Container, Group, Image } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 // import { MantineLogo } from '@mantinex/mantine-logo';
 import classes from './header.module.css'
+import logoImg from '../../../public/logo.png';
 
 const userLinks = [
   { link: '#', label: 'Vie privée et sécurité' },
@@ -52,7 +53,7 @@ export function Header() {
     <header className={classes.header}>
       <Container className={classes.inner}>
         {/* <MantineLogo size={34} /> */}
-        <Image radius="sm" h={60} src="../../../public/logo.png"/>
+        <Image radius="sm" h={60} src={logoImg}/>
         <Box className={classes.links} visibleFrom="sm">
           <Group justify="flex-end">{secondaryItems}</Group>
           <Group gap={0} justify="flex-end" className={classes.mainLinks}>
